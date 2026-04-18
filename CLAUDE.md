@@ -31,11 +31,11 @@ Use the Task tool with these specialized subagents for appropriate tasks:
 ## Quick Start
 
 ```bash
-# Backend
+# Backend (FastAPI on port 8001)
 cd server
-uv run python main.py
+python3 main.py
 
-# Frontend
+# Frontend (Vite on port 3000)
 cd client
 npm install && npm run dev
 ```
